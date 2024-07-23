@@ -4,13 +4,12 @@
 */
 
 function isPalindrome(str) {
-  
+
   let str2=str.replace(/[^a-z0-9]/gi, "").toLowerCase();
   return str2.split('').reverse().join('') === str2;
 
   }
   
-
 const result = isPalindrome(" madam");
 console.log(result);
   
